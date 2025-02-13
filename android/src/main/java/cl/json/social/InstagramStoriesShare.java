@@ -51,7 +51,7 @@ public class InstagramStoriesShare extends SingleShareIntent {
 
     private void shareStory(ReadableMap options) {
 
-        Log.d("InstagramStoriesShare", "Your debug message here");
+        Log.d("InstagramStoriesShare", "does this change just with npm install?");
 
         if (!this.hasValidKey("backgroundImage", options) && !this.hasValidKey("backgroundVideo", options)
                 && !this.hasValidKey("stickerImage", options)) {
